@@ -1,0 +1,27 @@
+.btn btn-primary {
+
+    background-color: #007bff; /* Color de fondo azul */
+    position: center !important;
+    color: #fff; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px !important; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+    cursor: pointer; /* Cambiar cursor al pasar el mouse */
+    transition: background-color 0.3s ease; /* Transición suave */
+    margin-left: 10px !important;
+  }
+  
+  .Ingresa:hover {
+    background-color: #0056b3; /* Cambio de color de fondo al pasar el mouse */
+  }
+
+  .container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    background: white;
+    border-radius: 10px;
+  }

@@ -1,0 +1,130 @@
+.container{
+    max-width: 140px !important;
+}
+
+
+
+.carousel-item{
+    padding: 40px;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.Titulo{
+    color: blue;
+}
+
+.footer{
+    text-align: center;
+    font-weight: bold;
+}
+
+.product-detail {
+
+    box-sizing: border-box;
+    position: relative;
+    align-items: center;
+    max-width: 800px;
+  }
+
+ 
+  .title-container {
+    display: flex;
+  }
+  .title-container img {
+    transform: rotate(180deg);
+    margin-right: 14px;
+  }
+  .title {
+    font-size: var(--lg);
+    font-weight: bold;
+  }
+ 
+ 
+  .shopping-cart {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    gap: 16px;
+    margin-bottom: 24px;
+    align-items: center;
+  }
+  
+  .shopping-cart figure img {
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+ 
+  .shopping-cart p:nth-child(3) {
+    font-size: var(--md);
+    font-weight: bold;
+  }
+  .primary-button {
+    background-color: var(--hospital-green);
+    border-radius: 8px;
+    border-color: aqua;
+    color: black;
+    width: 100%;
+    max-width: 400px;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    position: relative;
+    align-items: center !important;
+    
+  }
+
+  .container-cat{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    background: white;
+    border-radius: 10px;
+  }
+  .primary-button{
+    max-width: 100% !important;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: white;
+  }
+
+  p {
+    color: rgb(0, 82, 102);
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+label{
+     color: rgb(0, 82, 102);
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+form{
+  font-family: "Poetsen One", sans-serif;
+  font-weight: medium;
+  
+  font-style: normal;
+
+}
+
+nav{
+    font-family: "Poetsen One", sans-serif;
+  font-weight: medium;
+  
+  font-style: normal;
+}
+h5{
+  font-family: "Poetsen One", sans-serif;
+  font-weight: medium;
+  
+  font-style: normal; 
+}
